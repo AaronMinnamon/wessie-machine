@@ -1,0 +1,80 @@
+.section.about{
+  background-image: url('../images/running_mill_light_layers.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  .text-block{
+    position: absolute;
+    background-color: rgba(51, 51, 51, 0.71);
+    padding: 20px 30px;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    left: 0px;
+    z-index: 1;
+  }
+  .text-container{
+    h1{
+      font-size: 50pt;
+      text-transform: uppercase;
+    }
+    p{
+      font-size: 12pt;
+    }
+    position: relative;
+    z-index: 2;
+    color: $light-grey;
+    width: 100%;
+    padding: 0px 30px;
+  }
+}
+.header-container{
+  h1{
+    font-size: 30pt;
+    text-transform: uppercase;
+  }
+  position: relative;
+  z-index: 2;
+  color: $light-grey;
+  width: 100%;
+  padding: 30px;
+}
+.row.industries{
+  background-color: white;
+  margin: 0 auto;
+  z-index: 10;
+  box-shadow: -1px 0px 40px 0px rgba(0,0,0,0.75);
+}
+.grid-item{
+  text-align: center;
+  padding: 30px;
+  h2{
+    font-size: 16pt;
+  }
+  i{
+    font-size: 40pt;
+    display: block;
+  }
+}
+
+/*********
+MEDIAQUERIES
+*********/
+@media (min-width: $screen-xs){
+  .header-container{
+    h1{
+      font-size: 50pt;
+    }
+  }
+}
+@media (min-width: $screen-sm){
+
+}
+
+@media (min-width: $screen-md){
+
+}
+
+@media (min-width: $screen-lg){
+
+}

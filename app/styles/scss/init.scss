@@ -1,11 +1,19 @@
 //misc settings
-@import 'config/_settings';
+@import 'general/_reset';
+@import 'config/_colors';
 @import 'config/_mixins';
+@import 'config/_flaticon';
+
 
 //frameworks
+@import 'config/_bootstrap.scss';
+
+@import 'config/_settings';
 
 //global things
-@import 'general/_reset';
 @import 'layout/_main';
 
 //pages
+@import 'pages/_about';
+@import 'pages/_machines';
+@import 'pages/_footer';
