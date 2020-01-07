@@ -1,9 +1,10 @@
-.machines{
+.machines {
   background-image: url('../images/sparks-wheel.png');
   background-repeat: no-repeat;
   background-position: left top;
   background-size: cover;
-  .text-block{
+
+  .text-block {
     position: absolute;
     background-color: rgba(#DCDCDC, 0.71);
     padding: 20px 30px;
@@ -13,65 +14,87 @@
     left: 0px;
     z-index: 1;
   }
-  h1{
+
+  h1 {
     color: $dark-grey;
   }
 }
-.machine-row{
+
+.machine-row {
   position: relative;
   z-index: 2;
-  &.first-row{
+
+  &.first-row {
     margin-top: 20px;
   }
-  .text-container{
+
+  .text-container {
     display: inline-block;
     float: left;
     text-align: left;
     padding: 40px;
     background-color: white;
-    box-shadow: -5px -5px 54px -1px rgba(0,0,0,0.2);
+    box-shadow: -5px -5px 54px -1px rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
     background-position: center 20px;
     background-size: contain;
     padding-top: 160px;
     width: 100%;
-    h1{
+
+    h1 {
       color: $dark-grey;
     }
-    h2{
+
+    h2 {
       font-weight: 100;
       color: $orange;
     }
-    &#tmachines{
+
+    &#tmachines {
       background-image: url('../images/Doosan_200.jpg');
+      background-size: auto;
     }
-    &#hmill{
+
+    &#hmill {
       background-image: url('../images/Kitamura_Horizontal.jpg');
+      background-size: auto;
     }
-    &#vmill{
+
+    &#vmill {
       background-image: url('../images/Doosan_Vertical_Milling.jpg');
+      background-size: auto;
     }
-    &#jmill{
+
+    &#jmill {
       background-image: url('../images/Boring_Mill.jpg');
+      background-size: auto;
     }
-    &#asaw{
+
+    &#asaw {
       background-image: url('../images/Amada_330_AutomaticSaw.jpg');
+      background-size: auto;
     }
-    &#wequip{
+
+    &#wequip {
       background-image: url('../images/Syncrowave-350-LX.jpg');
+      background-size: auto;
     }
-    &#elathe{
+
+    &#elathe {
       background-image: url('../images/Engine_Lathe.jpg');
+      background-size: auto;
     }
   }
-  .image-container{
+
+  .image-container {
     display: inline-block;
     float: left;
-    img{
+
+    img {
       max-height: 250px;
       margin: 0 auto;
       display: block;
-      box-shadow: 5px 5px 54px -1px rgba(0,0,0,0.2);
+      box-shadow: 5px 5px 54px -1px rgba(0, 0, 0, 0.2);
     }
   }
 }
@@ -79,17 +102,10 @@
 /*********
 MEDIAQUERIES
 *********/
-@media (min-width: $screen-xs){
+@media (min-width: $screen-xs) {}
 
-}
-@media (min-width: $screen-sm){
+@media (min-width: $screen-sm) {}
 
-}
+@media (min-width: $screen-md) {}
 
-@media (min-width: $screen-md){
-
-}
-
-@media (min-width: $screen-lg){
-
-}
+@media (min-width: $screen-lg) {}
